@@ -1,13 +1,69 @@
-@font-face {
-  font-family: "Fixedsys";
-  src: url("../assets/fonts/FSEX300.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+:root {
+  --font-color: #F7AA08;
+  --text-hover-color: #1392CC;
+  --primary-background-color: #1C4C4E;
+  --secondary-background-color: #250842;
+
+
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--font-color);
+
+}
+
+.Navigation_Bar {
+  background-color: var(--primary-background-color);
+  padding: 20px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Navigation_Bar nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.Logo_Section span {
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+
+.Account_Links,
+.Account_Links ul {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+
+
+.Logo_Section span:hover,
+.Account_Links ul a:hover {
+  transition: all 0.2s;
+  color: var(--text-hover-color);
+
 }
