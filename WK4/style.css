@@ -3,6 +3,8 @@
   --text-hover-color: #1392CC;
   --primary-background-color: #1C4C4E;
   --secondary-background-color: #250842;
+
+
 }
 
 * {
@@ -43,7 +45,7 @@ ul {
 #Navigation_Bar nav {
   background-color: var(--primary-background-color);
   border-radius: 4px;
-  padding: 5px 15px;
+  padding: 8px 15px;
   width: 98%;
 
   display: flex;
@@ -139,6 +141,8 @@ ul {
   margin-left: 25px;
 
 }
+
+
 
 .Abouts .Contacts .Buttons {
   display: flex;
