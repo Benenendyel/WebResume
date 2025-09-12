@@ -44,18 +44,9 @@ body {
 }
 
 .Deliverables .Week_Buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
     gap: 1rem;
-
-}
-
-.Deliverables a { 
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
 
 }
 
