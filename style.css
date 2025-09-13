@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
     color: white;
     padding: 0;
     margin: 0;
@@ -44,9 +44,10 @@ body {
 }
 
 .Deliverables .Week_Buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 1rem;
+    display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+
 
 }
 
