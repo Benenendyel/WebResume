@@ -1,72 +1,70 @@
 * {
   box-sizing: border-box;
-    color: white;
-    padding: 0;
-    margin: 0;
-    font-family: 'Source Sans Pro';
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
 }
 
 body {
-    background-color: hsl(0, 0%, 5%);
-    
-    scrollbar-width: 1px;
+  background-color: hsl(0, 0%, 5%);
+
+  scrollbar-width: 1px;
 }
 
 .Container {
-    height: 100vh;
-
+  height: 100vh;
 }
 
 .Container .Header {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 40%;
-    padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40%;
+  padding: 10px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    font-size: 3rem;
-    font-weight: 900;
+  font-size: 3rem;
+  font-weight: 900;
 
-    text-wrap: nowrap;
+  text-wrap: nowrap;
 }
 
 .Container .Deliverables {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .Deliverables .Week_Buttons {
-    display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-
-
+  gap: 1rem;
 }
 
 .Deliverables button {
-    background-color: hsl(0, 0%, 20%);
-    width: 100%;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border-style: none;
-    border-radius: 16px;
-    padding: 2rem 3rem;
-    cursor: pointer;
-    transition: border 0.1s ease-in, background 0.1s ease-in;
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 16px;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  transition: border 0.1s ease-in, background 0.1s ease-in;
 }
 
 .Deliverables button:hover {
-    background-color: hsl(0, 0%, 10%);
-    border-inline-style: solid;
-    border-inline-color: rgb(255, 255, 255);
-    border-inline-width: 2px;
-
+  background-color: hsl(0, 0%, 10%);
+  border-inline-style: solid;
+  border-inline-color: rgb(255, 255, 255);
+  border-inline-width: 2px;
 }
